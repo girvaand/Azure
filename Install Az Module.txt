@@ -1,0 +1,18 @@
+//Powershell 
+
+https://github.com/powershell/powershell/releases
+
+//Install Az Module Command 
+
+PS C:\Windows\System32> Install-Module -name Az -AllowClobber -Force
+PS C:\Windows\System32> Connect-AzAccount
+
+Account                SubscriptionName     TenantId                             Environment
+-------                ----------------     --------                             -----------
+helpdesk@phcenters.com Azure subscription 1 0244dd9c-848a-40a0-a1bc-f2ddaf953974 AzureCloud
+
+PS C:\Windows\System32> Get-AzSubscription
+
+Name                 Id                                   TenantId                             State
+----                 --                                   --------                             -----
+Azure subscription 1 b8d6dc85-5197-46ca-a651-b66e9d00c8a5 0244dd9c-848a-40a0-a1bc-f2ddaf953974 Enabled
