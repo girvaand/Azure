@@ -1,0 +1,9 @@
+https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal
+ALL resources have to be in the same region.
+
+Create RG.
+Create VNet.
+Create VNet Gateway within the VNet (use /27 or /28)
+Create Local Network Gateway
+Configure local VPN device
+Create VPN Connections
